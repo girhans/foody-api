@@ -1,17 +1,30 @@
 {
   "name": "foody",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "get restaurant list for shopeefood",
+  "keywords": [
+    "foody",
+    "foody-sdk",
+    "shopeefood"
+  ],
+  "homepage": "https://github.com/girhans/foody-api#readme",
+  "bugs": {
+    "url": "https://github.com/girhans/foody-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girhans/foody-api.git"
+  },
+  "license": "ISC",
+  "author": "glpsy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.9",
     "user-agents": "^1.1.396"
-  }
+  },
+  "devDependencies": {}
 }
